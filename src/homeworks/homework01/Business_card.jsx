@@ -1,6 +1,5 @@
-
 // импортировали отдельный css файл
-import "./lesson01.css";
+import "./business_card.css";
 // импорт картинок
 import viteLogo from "/vite.svg";
 import reactLogo from "../../assets/react.svg";
@@ -13,7 +12,7 @@ import reactLogo from "../../assets/react.svg";
 // 4. функция называется именем файлаб с большой буквы
 // 5. функция экспортируется из файла
 
-function Lesson01() {
+function Business_card () {
   return (
     <>
       <div>
@@ -24,7 +23,7 @@ function Lesson01() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Привет, это React ⚡️</h1>
+      <h1>Привет, меня зовут Виктория. ⚡️</h1>
 
       <p className="read-the-docs">
         Этот React проект собран на сборщике Vite 🙌
@@ -32,5 +31,5 @@ function Lesson01() {
     </>
   );
 }
-export default Lesson01;
+export default Business_card;
 
